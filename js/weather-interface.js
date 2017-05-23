@@ -12,7 +12,7 @@ $(document).ready(function() {
   var currentWeatherObject = new Weather();
   $('#weather-location').click(function() {
     var city = $('#location').val();
-    $('#location').val("");
+    // $('#location').val("");
     currentWeatherObject.getWeather(city, displayHumidity, displayTempK);
   });
 });

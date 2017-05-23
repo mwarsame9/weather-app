@@ -9,7 +9,7 @@ $(document).ready(function() {
   var currentTempObject = new Temp();
   $('#temp-location').click(function() {
     var city = $('#location').val();
-    // $('#location').val("");
+    $('#location').val("");
     currentTempObject.getTemp(city, displayTemp);
   });
 });
