@@ -1,11 +1,11 @@
 var Weather = require('./../js/weather.js').weatherModule;
 
 var displayHumidity = function(city, humidityData) {
-  $('.showWeather').append("The humidity in " + city + " is " + humidityData + "%");
+  $('.showWeather').text("The humidity in " + city + " is " + humidityData + "%");
 }
 
 var displayTempK = function(city, tempData) {
-  $('.showTemp').append("The temp in " + city + " is " + tempData + " Kelvin");
+  $('.showTemp').text("The temp in " + city + " is " + tempData + " Kelvin");
 }
 
 $(document).ready(function() {
