@@ -1,9 +1,6 @@
 # Project
 
-
-
-## Screenshot
-
+Weather application that returns the temperature in either fahrenheit or celsius of user requested location depending on user's choice. This application uses API from http://openweathermap.org/.
 
 
 ## Built With
